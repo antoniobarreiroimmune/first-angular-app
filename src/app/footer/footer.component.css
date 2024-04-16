@@ -1,0 +1,19 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+    color: #333;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
