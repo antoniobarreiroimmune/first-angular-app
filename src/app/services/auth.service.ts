@@ -13,8 +13,8 @@ export class AuthService {
     return this.http.post(`${this.apiUrl}/signup`, data);
   }
 
-  login(data: any): Observable<any> {
-    return this.http.post(`${this.apiUrl}/login`, data);
+  login(email: string, password: string): Observable<any> {
+    return this.http.post(`${this.apiUrl}/login`, { email, password });
   }
 
   getUser(token: string): Observable<any> {
